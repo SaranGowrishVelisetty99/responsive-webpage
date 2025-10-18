@@ -7,6 +7,9 @@
     <title>Main</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Caveat:wght@400..700&family=Goldman:wght@400;700&display=swap" rel="stylesheet">
     <style>
       /* *{
         border: 1px solid red;
@@ -18,7 +21,39 @@
 
       .img-div img{
         height:80vh;
-        width: auto;
+        width: 100%;
+      }
+
+      .head1 {
+        font-size: 4rem;
+        color: white;
+        font-family: monospace;
+      }
+
+      .head2 {
+        font-size: 6.1rem;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .head3 {
+        font-size: 3rem;
+        color: whitesmoke;
+        font-family: "Caveat", cursive;
+      }
+
+      .getBtn {
+        background-color: white;
+        border-radius: 25px;
+        border: 1px solid white;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+      }
+
+      .getBtn:hover {
+        background-color: black;
+        color: white;
       }
     </style>
       </head>
@@ -64,13 +99,15 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid bg-black d-flex p-5">
-        <div class="col-12 col-md-4">
-            <h1 class="text-light fw-bold">Imagine The</h1>
-            <h2 class="text-light">Unimaginable and then</h2>
-            <h3 class="text-light fw-bold">Chase it!</h3>
+    <div class="container-fluid bg-black d-flex ps-2 pe-2">
+        <div class="p-5 col-12 col-md-5">
+            <h1 class="head1">Imagine the,</h1>
+            <h1 class="head2">Unimaginable</h1>
+            <h1 class="head3">and then Chase it!</h1>
+            <p></p>
+            <a href="register.html" class="getBtn">Join the club!</a>
         </div>
-        <div class="col-12 col-md-8 img-div">
+        <div class="col-12 col-md-7 img-div">
             <img src="./img3.jpg" alt="">
         </div>
     </div>
